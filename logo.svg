@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Aganze Growing Roots Farm logo</title>
+  <desc id="desc">A circular badge with a tree, roots, and the words Aganze Growing Roots with Youth Entrepreneurship around the edge.</desc>
+  <defs>
+    <path id="topArc" d="M 150 400 A 250 250 0 0 1 650 400" />
+    <path id="bottomArc" d="M 650 400 A 250 250 0 0 1 150 400" />
+    <linearGradient id="leafGlow" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7ac26d" />
+      <stop offset="100%" stop-color="#2d7c3d" />
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="400" cy="400" r="295" fill="none" stroke="#0f4d2d" stroke-width="26"/>
+    <circle cx="400" cy="400" r="265" fill="none" stroke="#d7b15b" stroke-width="8"/>
+    <circle cx="400" cy="400" r="246" fill="none" stroke="#0f4d2d" stroke-width="4"/>
+
+    <text fill="#0f4d2d" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="900" letter-spacing="5">
+      <textPath href="#topArc" startOffset="50%" text-anchor="middle">AGANZE • GROWING • ROOTS •</textPath>
+    </text>
+
+    <text fill="#0f4d2d" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" letter-spacing="4">
+      <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">YOUTH ENTREPRENEURSHIP</textPath>
+    </text>
+
+    <path d="M400 220 C388 266 382 296 382 337 L382 430" stroke="#714921" stroke-width="18"/>
+    <path d="M400 240 C330 245 280 219 246 172 C262 155 288 144 318 149 C346 154 371 173 400 240 Z" fill="url(#leafGlow)"/>
+    <path d="M400 240 C472 245 521 220 558 170 C541 154 516 146 485 151 C456 156 425 174 400 240 Z" fill="url(#leafGlow)"/>
+    <path d="M400 295 C345 292 302 270 270 230 C286 210 309 196 341 196 C368 196 388 210 400 295 Z" fill="#3d9c52"/>
+    <path d="M400 295 C456 292 501 271 533 232 C517 211 493 196 462 196 C436 196 417 210 400 295 Z" fill="#3d9c52"/>
+    <path d="M382 348 C314 360 268 390 234 456" stroke="#d7b15b" stroke-width="10"/>
+    <path d="M382 348 C332 360 286 432 260 500" stroke="#d7b15b" stroke-width="10"/>
+    <path d="M400 349 C454 362 503 388 544 456" stroke="#d7b15b" stroke-width="10"/>
+    <path d="M400 349 C470 360 536 439 579 520" stroke="#d7b15b" stroke-width="10"/>
+
+    <path d="M360 485 C325 505 280 548 244 600" stroke="#7a4e1f" stroke-width="11"/>
+    <path d="M420 485 C456 505 503 548 560 610" stroke="#7a4e1f" stroke-width="11"/>
+    <path d="M400 430 C330 440 265 482 223 553" stroke="#7a4e1f" stroke-width="9"/>
+    <path d="M400 430 C470 440 535 482 577 553" stroke="#7a4e1f" stroke-width="9"/>
+
+    <circle cx="400" cy="345" r="20" fill="#d7b15b"/>
+    <path d="M400 346 L400 430" stroke="#d7b15b" stroke-width="10"/>
+    <path d="M382 415 L400 433 L418 415" stroke="#0f4d2d" stroke-width="6" fill="none"/>
+    <path d="M320 470 C360 435 392 430 400 430 C408 430 438 435 480 470" stroke="#0f4d2d" stroke-width="8" fill="none"/>
+
+    <path d="M250 575 C278 560 300 548 332 550" stroke="#0f4d2d" stroke-width="4" fill="none"/>
+    <path d="M550 575 C522 560 500 548 468 550" stroke="#0f4d2d" stroke-width="4" fill="none"/>
+  </g>
+</svg>

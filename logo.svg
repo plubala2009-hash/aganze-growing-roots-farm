@@ -1,49 +1,120 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
   <title id="title">Aganze Growing Roots Farm logo</title>
-  <desc id="desc">A circular badge with a tree, roots, and the words Aganze Growing Roots with Youth Entrepreneurship around the edge.</desc>
+  <desc id="desc">A circular badge with a tree, roots, barn, and the words Aganze Growing Roots Youth Entrepreneurship around the ring.</desc>
+
   <defs>
-    <path id="topArc" d="M 150 400 A 250 250 0 0 1 650 400" />
-    <path id="bottomArc" d="M 650 400 A 250 250 0 0 1 150 400" />
-    <linearGradient id="leafGlow" x1="0" x2="1">
-      <stop offset="0%" stop-color="#7ac26d" />
-      <stop offset="100%" stop-color="#2d7c3d" />
+    <path id="topArc" d="M 180 455 A 270 270 0 0 1 720 455" />
+    <path id="bottomArc" d="M 720 455 A 270 270 0 0 1 180 455" />
+    <linearGradient id="leafGreen" x1="0" x2="1">
+      <stop offset="0%" stop-color="#98c86b" />
+      <stop offset="100%" stop-color="#2f7c43" />
+    </linearGradient>
+    <linearGradient id="groundGlow" x1="0" x2="1">
+      <stop offset="0%" stop-color="#d5c047" />
+      <stop offset="100%" stop-color="#b98c2d" />
     </linearGradient>
   </defs>
 
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="400" cy="400" r="295" fill="none" stroke="#0f4d2d" stroke-width="26"/>
-    <circle cx="400" cy="400" r="265" fill="none" stroke="#d7b15b" stroke-width="8"/>
-    <circle cx="400" cy="400" r="246" fill="none" stroke="#0f4d2d" stroke-width="4"/>
+    <circle cx="450" cy="450" r="320" fill="#d9d2b0" stroke="#0b4d2d" stroke-width="28"/>
+    <circle cx="450" cy="450" r="286" fill="#d9d2b0" stroke="#0b4d2d" stroke-width="6"/>
 
-    <text fill="#0f4d2d" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="900" letter-spacing="5">
-      <textPath href="#topArc" startOffset="50%" text-anchor="middle">AGANZE • GROWING • ROOTS •</textPath>
-    </text>
+    <g font-family="Arial, Helvetica, sans-serif" font-weight="900" letter-spacing="4">
+      <text fill="#0b4d2d" font-size="62">
+        <textPath href="#topArc" startOffset="50%" text-anchor="middle">AGANZE • GROWING • ROOTS •</textPath>
+      </text>
+      <text fill="#0b4d2d" font-size="36">
+        <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">YOUTH ENTREPRENEURSHIP</textPath>
+      </text>
+    </g>
 
-    <text fill="#0f4d2d" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" letter-spacing="4">
-      <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">YOUTH ENTREPRENEURSHIP</textPath>
-    </text>
+    <path d="M450 220 L450 420" stroke="#7d4d26" stroke-width="18"/>
 
-    <path d="M400 220 C388 266 382 296 382 337 L382 430" stroke="#714921" stroke-width="18"/>
-    <path d="M400 240 C330 245 280 219 246 172 C262 155 288 144 318 149 C346 154 371 173 400 240 Z" fill="url(#leafGlow)"/>
-    <path d="M400 240 C472 245 521 220 558 170 C541 154 516 146 485 151 C456 156 425 174 400 240 Z" fill="url(#leafGlow)"/>
-    <path d="M400 295 C345 292 302 270 270 230 C286 210 309 196 341 196 C368 196 388 210 400 295 Z" fill="#3d9c52"/>
-    <path d="M400 295 C456 292 501 271 533 232 C517 211 493 196 462 196 C436 196 417 210 400 295 Z" fill="#3d9c52"/>
-    <path d="M382 348 C314 360 268 390 234 456" stroke="#d7b15b" stroke-width="10"/>
-    <path d="M382 348 C332 360 286 432 260 500" stroke="#d7b15b" stroke-width="10"/>
-    <path d="M400 349 C454 362 503 388 544 456" stroke="#d7b15b" stroke-width="10"/>
-    <path d="M400 349 C470 360 536 439 579 520" stroke="#d7b15b" stroke-width="10"/>
+    <g>
+      <path d="M450 255 C410 245 372 207 350 165 C333 180 321 205 319 233 C349 245 392 256 450 255 Z" fill="url(#leafGreen)"/>
+      <path d="M450 255 C490 245 528 207 550 165 C567 180 579 205 581 233 C551 245 508 256 450 255 Z" fill="url(#leafGreen)"/>
+      <path d="M450 320 C397 314 349 286 316 245 C332 221 359 206 395 205 C425 204 445 222 450 320 Z" fill="#3f994a"/>
+      <path d="M450 320 C503 314 551 286 584 245 C568 221 541 206 505 205 C475 204 455 222 450 320 Z" fill="#3f994a"/>
+      <path d="M430 330 C366 347 314 376 277 432" stroke="#d1b963" stroke-width="10"/>
+      <path d="M430 330 C374 349 325 418 292 495" stroke="#d1b963" stroke-width="10"/>
+      <path d="M470 330 C534 347 586 376 623 432" stroke="#d1b963" stroke-width="10"/>
+      <path d="M470 330 C526 349 575 418 608 495" stroke="#d1b963" stroke-width="10"/>
+    </g>
 
-    <path d="M360 485 C325 505 280 548 244 600" stroke="#7a4e1f" stroke-width="11"/>
-    <path d="M420 485 C456 505 503 548 560 610" stroke="#7a4e1f" stroke-width="11"/>
-    <path d="M400 430 C330 440 265 482 223 553" stroke="#7a4e1f" stroke-width="9"/>
-    <path d="M400 430 C470 440 535 482 577 553" stroke="#7a4e1f" stroke-width="9"/>
+    <g>
+      <path d="M305 540 C345 522 375 520 405 532" stroke="#0b4d2d" stroke-width="4" fill="none"/>
+      <path d="M595 540 C555 522 525 520 495 532" stroke="#0b4d2d" stroke-width="4" fill="none"/>
+      <path d="M460 460 C430 486 407 548 417 615" stroke="#6a4120" stroke-width="10" fill="none"/>
+      <path d="M440 460 C470 486 493 548 483 615" stroke="#6a4120" stroke-width="10" fill="none"/>
+      <path d="M420 470 C372 493 336 530 293 607" stroke="#6a4120" stroke-width="10" fill="none"/>
+      <path d="M480 470 C528 493 564 530 607 607" stroke="#6a4120" stroke-width="10" fill="none"/>
+      <path d="M451 470 C406 489 363 536 333 598" stroke="#6a4120" stroke-width="8" fill="none"/>
+      <path d="M449 470 C494 489 537 536 567 598" stroke="#6a4120" stroke-width="8" fill="none"/>
+    </g>
 
-    <circle cx="400" cy="345" r="20" fill="#d7b15b"/>
-    <path d="M400 346 L400 430" stroke="#d7b15b" stroke-width="10"/>
-    <path d="M382 415 L400 433 L418 415" stroke="#0f4d2d" stroke-width="6" fill="none"/>
-    <path d="M320 470 C360 435 392 430 400 430 C408 430 438 435 480 470" stroke="#0f4d2d" stroke-width="8" fill="none"/>
+    <g>
+      <path d="M245 610 C290 575 334 560 378 565" stroke="#0b4d2d" stroke-width="5" fill="none"/>
+      <path d="M655 610 C610 575 566 560 522 565" stroke="#0b4d2d" stroke-width="5" fill="none"/>
+      <path d="M265 610 C275 620 285 638 285 660" stroke="#0b4d2d" stroke-width="5" fill="none"/>
+      <path d="M635 610 C625 620 615 638 615 660" stroke="#0b4d2d" stroke-width="5" fill="none"/>
+    </g>
 
-    <path d="M250 575 C278 560 300 548 332 550" stroke="#0f4d2d" stroke-width="4" fill="none"/>
-    <path d="M550 575 C522 560 500 548 468 550" stroke="#0f4d2d" stroke-width="4" fill="none"/>
+    <g>
+      <rect x="204" y="478" width="110" height="88" rx="3" fill="#0d572d"/>
+      <path d="M205 482 L259 438 L314 482" fill="none" stroke="#0d572d" stroke-width="12"/>
+      <path d="M234 490 L234 566" stroke="#d9d2b0" stroke-width="5"/>
+      <path d="M266 490 L266 566" stroke="#d9d2b0" stroke-width="5"/>
+      <path d="M213 522 L300 522" stroke="#d9d2b0" stroke-width="5"/>
+      <path d="M212 546 L300 546" stroke="#d9d2b0" stroke-width="5"/>
+    </g>
+
+    <g>
+      <rect x="592" y="480" width="130" height="96" rx="4" fill="#b36d3a"/>
+      <path d="M590 486 L657 435 L723 486" fill="none" stroke="#b36d3a" stroke-width="12"/>
+      <path d="M620 536 L620 575" stroke="#e6d7ae" stroke-width="6"/>
+      <path d="M685 536 L685 575" stroke="#e6d7ae" stroke-width="6"/>
+      <path d="M603 506 L630 506" stroke="#e6d7ae" stroke-width="6"/>
+      <path d="M675 506 L706 506" stroke="#e6d7ae" stroke-width="6"/>
+      <path d="M603 560 L706 560" stroke="#e6d7ae" stroke-width="6"/>
+      <path d="M640 477 L640 575" stroke="#e6d7ae" stroke-width="6"/>
+      <path d="M666 477 L666 575" stroke="#e6d7ae" stroke-width="6"/>
+    </g>
+
+    <g>
+      <circle cx="450" cy="410" r="32" fill="#d4b563"/>
+      <path d="M450 415 L450 505" stroke="#d4b563" stroke-width="10"/>
+      <path d="M430 480 L450 500 L470 480" stroke="#0b4d2d" stroke-width="6" fill="none"/>
+      <path d="M430 520 C450 500 468 495 488 520" stroke="#0b4d2d" stroke-width="8" fill="none"/>
+      <path d="M428 438 C450 425 470 425 490 438" stroke="#0b4d2d" stroke-width="8" fill="none"/>
+    </g>
+
+    <g fill="#0b4d2d">
+      <path d="M365 323 C387 315 405 311 423 314 C404 328 384 340 365 323 Z"/>
+      <path d="M535 323 C513 315 495 311 477 314 C496 328 516 340 535 323 Z"/>
+      <path d="M397 346 C413 334 430 331 450 334 C425 344 408 357 397 346 Z"/>
+      <path d="M503 346 C487 334 470 331 450 334 C475 344 492 357 503 346 Z"/>
+      <path d="M420 375 C440 364 448 356 450 356 C452 356 460 364 480 375 C468 390 462 398 450 404 C438 398 432 390 420 375 Z"/>
+    </g>
+
+    <g stroke="#6e4d2d" stroke-width="8" fill="none" opacity="0.9">
+      <path d="M450 565 C430 592 421 615 420 648"/>
+      <path d="M450 565 C470 592 479 615 480 648"/>
+      <path d="M450 585 C405 593 370 618 345 655"/>
+      <path d="M450 585 C495 593 530 618 555 655"/>
+      <path d="M450 615 C420 628 390 651 370 683"/>
+      <path d="M450 615 C480 628 510 651 530 683"/>
+    </g>
+
+    <g fill="url(#groundGlow)" opacity="0.9">
+      <path d="M206 620 C266 601 318 597 360 605 C342 624 345 653 330 674 C294 663 263 663 206 620 Z"/>
+      <path d="M694 620 C634 601 582 597 540 605 C558 624 555 653 570 674 C606 663 637 663 694 620 Z"/>
+    </g>
+
+    <g stroke="#cfb24f" stroke-width="4" opacity="0.8" fill="none">
+      <path d="M225 639 C240 630 250 624 268 620"/>
+      <path d="M285 620 C304 630 322 636 336 644"/>
+      <path d="M564 620 C573 630 586 636 610 638"/>
+      <path d="M640 638 C660 632 676 628 695 620"/>
+    </g>
   </g>
 </svg>

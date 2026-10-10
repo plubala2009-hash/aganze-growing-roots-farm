@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Aganze Growing Roots Farm | Youth Innovation Program</title>
+    <meta
+      name="description"
+      content="Aganze Growing Roots Farm is a family farm in Normal, Illinois building a youth innovation program that combines farming, technology, entrepreneurship, and leadership."
+    />
+    <link rel="canonical" href="https://aganzegrowingroots.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Aganze Growing Roots Farm" />
+    <meta property="og:title" content="Aganze Growing Roots Farm | Growing roots, growing futures" />
+    <meta
+      property="og:description"
+      content="A family farm in Normal, Illinois creating a hands-on youth program in farming, technology, money skills, and leadership."
+    />
+    <meta property="og:url" content="https://aganzegrowingroots.com/" />
+    <meta property="og:image" content="https://aganzegrowingroots.com/og-image%20(1).png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Aganze Growing Roots Farm" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B1%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Hanken+Grotesk:wght@400;700&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --bg: #f5f7f1;
+        --surface: #fff;
+        --text: #22291f;
+        --muted: #566251;
+        --line: #d6dccf;
+        --accent: #2f6b3f;
+        --gold: #e0a526;
+        --hero: #2a1f17;
+        --hero-text: #f5f7f1;
+        --display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+        --body: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: var(--body);
+        font-size: 1.08rem;
+        line-height: 1.65;
+      }
+      a { color: var(--accent); }
+      h1, h2, h3 { font-family: var(--display); line-height: 1.1; margin: 0 0 0.75rem; }
+      h2 { font-size: clamp(1.9rem, 5vw, 2.7rem); }
+      p { margin: 0 0 1em; max-width: 62ch; }
+      .wrap { max-width: 960px; margin: 0 auto; padding: 0 1.25rem; }
+      .lead { font-size: 1.15rem; color: var(--muted); }
+      .btn {
+        display: inline-block;
+        padding: 0.85em 1.5em;
+        border-radius: 8px;
+        font: inherit;
+        font-weight: 700;
+        text-decoration: none;
+        background: var(--gold);
+        color: #2a1f17;
+        border: none;
+        cursor: pointer;
+      }
+      .hero a.btn, header a { color: inherit; }
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: var(--hero);
+        color: var(--hero-text);
+      }
+      header .wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-top: 0.65rem;
+        padding-bottom: 0.65rem;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        text-decoration: none;
+        color: inherit;
+        font-family: var(--display);
+        font-weight: 800;
+      }
+      .logo {
+        width: 46px;
+        height: 46px;
+        border-radius: 8px;
+        background: #fff1ca;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        gap: 1.1rem;
+      }
+      nav a {
+        color: inherit;
+        text-decoration: none;
+        opacity: 0.92;
+      }
+      nav a:hover { text-decoration: underline; }
+      .notice {
+        background: var(--gold);
+        color: #2a1f17;
+        text-align: center;
+        padding: 0.75rem 1rem;
+        font-weight: 700;
+      }
+      .notice a { color: #2a1f17; }
+      .hero { background: var(--hero); color: var(--hero-text); }
+      .hero .wrap {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 2rem;
+        align-items: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+      }
+      .hero h1 {
+        font-size: clamp(2.5rem, 8vw, 4.5rem);
+        font-weight: 800;
+      }
+      .hero p { font-size: 1.15rem; opacity: 0.92; }
+      .roots { width: 100%; max-height: 360px; }
+      section { padding: 4rem 0; }
+      .alt { background: var(--surface); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+      .two { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+      .rows { border-top: 2px solid var(--text); margin-top: 1.2rem; }
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+        gap: 1.25rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .row h3 { margin: 0; }
+      .row p { margin: 0; color: var(--muted); }
+      .checks {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .checks li {
+        position: relative;
+        padding: 0.55rem 0 0.55rem 1.7rem;
+        border-bottom: 1px solid var(--line);
+      }
+      .checks li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 1.1rem;
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 50% 0 50% 0;
+        background: var(--accent);
+      }
+      .phases {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+      }
+      .phase {
+        border-top: 5px solid var(--accent);
+        padding-top: 0.9rem;
+      }
+      .phase small { color: var(--muted); font-weight: 700; }
+      .phase p { color: var(--muted); margin: 0; }
+      form {
+        display: grid;
+        gap: 1rem;
+        max-width: 520px;
+      }
+      label {
+        display: grid;
+        gap: 0.35rem;
+        font-weight: 700;
+      }
+      input, select, textarea {
+        width: 100%;
+        font: inherit;
+        padding: 0.7em 0.8em;
+        border: 1.5px solid var(--line);
+        border-radius: 6px;
+        background: var(--surface);
+        color: var(--text);
+      }
+      textarea { min-height: 110px; }
+      .note { font-size: 0.92rem; color: var(--muted); }
+      footer {
+        background: var(--hero);
+        color: var(--hero-text);
+        padding: 1.8rem 0;
+      }
+      footer .wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+      }
+      #menu { display: none; }
+      .legal details { border-bottom: 1px solid var(--line); }
+      .legal summary {
+        cursor: pointer;
+        list-style: none;
+        padding: 0.95rem 0;
+        font-family: var(--display);
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+      .legal .body { padding: 0 0 1.2rem; }
+      @media (max-width: 760px) {
+        .hero .wrap, .two, .phases, .row { grid-template-columns: 1fr; }
+        .row { gap: 0.3rem; }
+        nav {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background: var(--hero);
+          flex-direction: column;
+          padding: 1rem 1.25rem 1.2rem;
+          gap: 1rem;
+          border-top: 1px solid rgba(255,255,255,.15);
+        }
+        nav.open { display: flex; }
+        #menu {
+          display: block;
+          background: none;
+          color: inherit;
+          border: 2px solid currentColor;
+          border-radius: 6px;
+          padding: 0.45rem 0.9rem;
+          font: inherit;
+          font-weight: 700;
+          cursor: pointer;
+        }
+        .brand span { font-size: 0.85rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <a class="brand" href="#top" aria-label="Aganze Growing Roots Farm home">
+          <img class="logo" alt="Aganze Growing Roots Farm logo" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B1%3C/text%3E%3C/svg%3E" />
+          <span>Aganze Growing Roots Farm</span>
+        </a>
+        <button id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+        <nav id="nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#visits">Visits</a>
+          <a href="#tech">Farm tech</a>
+          <a href="#program">Youth program</a>
+          <a href="#apply">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="notice" role="note">
+      Our farm is under construction. Visits and the youth program open when building is complete.
+      <a href="#apply">Join the waitlist.</a>
+    </div>
+
+    <main id="top">
+      <section class="hero">
+        <div class="wrap">
+          <div>
+            <h1>Growing roots, growing futures.</h1>
+            <p>
+              Aganze Growing Roots Farm is building a small family farm in Normal, Illinois where children and young people can learn how food is grown, how technology supports healthy farming, and how to build sustainable livelihoods.
+            </p>
+            <p>
+              We combine practical farm skills with money literacy, leadership, and community action so youth can grow confidence, resilience, and opportunity where they live.
+            </p>
+            <a class="btn" href="#apply">Join the list</a>
+          </div>
+
+          <svg class="roots" viewBox="0 0 320 380" role="img" aria-label="A flourishing seedling with roots growing beneath the soil">
+            <line class="gr" x1="10" y1="170" x2="310" y2="170" />
+            <path class="stem" d="M160 160 C 155 130, 155 100, 160 40" />
+            <path class="stem" d="M160 160 C 146 128, 110 96, 70 80" />
+            <path class="stem" d="M160 160 C 176 130, 228 96, 250 72" />
+            <path class="leaf" d="M160 80 C 125 85, 110 55, 137 35 C 175 32, 185 68, 160 80" />
+            <path class="leaf" d="M160 80 C 190 88, 210 63, 218 48 C 238 54, 237 84, 210 98 C 192 96, 178 88, 160 80" />
+            <path class="root a" d="M160 170 C 136 185, 122 208, 118 246" />
+            <path class="root b" d="M160 170 C 172 184, 186 205, 197 241" />
+            <path class="root c" d="M160 170 C 138 193, 106 202, 82 233" />
+            <path class="root d" d="M160 170 C 177 190, 221 202, 244 234" />
+          </svg>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="wrap two">
+          <div>
+            <h2>A family farm in Normal, Illinois.</h2>
+            <p>
+              Aganze Growing Roots Farm is a small, family-run farm designed to teach youth entrepreneurship, sustainable agriculture, and self-sufficiency through hands-on learning.
+            </p>
+            <p>
+              Many young people grow up without direct contact with food production, animal care, or the practical decisions behind running a small farm business. Our farm gives them a place to understand these realities in a safe, guided learning environment.
+            </p>
+            <p>
+              We believe local youth can build meaningful livelihoods in their own communities when education is rooted in land stewardship, real work, and local opportunity.
+            </p>
+
+            <div style="margin-top:2rem;">
+              <h3>What we are building</h3>
+              <ul class="checks">
+                <li>Livestock housing</li>
+                <li>A lunch and presentation pavilion</li>
+                <li>Restrooms</li>
+                <li>A preservation station for eggs and goat milk</li>
+              </ul>
+              <p class="note" style="margin-top:1rem;">
+                These additions will allow us to welcome local school groups and community learners for practical farm experiences. We are seeking funding to complete the build.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div class="rows">
+              <div class="row">
+                <h3>Land stewardship</h3>
+                <p>Evidence-based farming, soil health, climate-smart practices, and respect for traditional knowledge.</p>
+              </div>
+              <div class="row">
+                <h3>Entrepreneurship</h3>
+                <p>Money skills, business planning, and market awareness that help young people turn effort into income.</p>
+              </div>
+              <div class="row">
+                <h3>Leadership</h3>
+                <p>Confidence, teamwork, communication, and community problem-solving for future-ready youth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="visits" class="alt">
+        <div class="wrap">
+          <h2>School and group visits.</h2>
+          <p class="lead">
+            We are preparing to welcome elementary school classes and community groups for hands-on learning with teachers or group leaders.
+          </p>
+
+          <div class="rows">
+            <div class="row">
+              <h3>Meet the animals</h3>
+              <p>See how livestock are cared for and where eggs and goat milk come from.</p>
+            </div>
+            <div class="row">
+              <h3>Grow and preserve food</h3>
+              <p>Learn how food is grown and how eggs and milk are handled and preserved safely.</p>
+            </div>
+            <div class="row">
+              <h3>Practice money skills</h3>
+              <p>Explore budgeting, pricing, and basic decision-making using real farm examples.</p>
+            </div>
+            <div class="row">
+              <h3>Care for the land</h3>
+              <p>Explore soil, composting, and regenerative practices outdoors.</p>
+            </div>
+            <div class="row">
+              <h3>See technology at work</h3>
+              <p>Discover how sensors, apps, and other tools support crop and animal care.</p>
+            </div>
+          </div>
+
+          <p class="note" style="margin-top:1rem;">
+            We plan to begin visits once the pavilion and restroom facilities are complete. Details including cost and scheduling will be shared when visits open. To join the interest list, <a href="#apply">contact us here</a>.
+          </p>
+        </div>
+      </section>
+
+      <section id="tech">
+        <div class="wrap">
+          <h2>Farming meets technology.</h2>
+          <p class="lead">
+            Good farming today uses information as well as practical skill. Learners discover what each tool does, why it matters, and how it is used safely.
+          </p>
+
+          <div class="rows">
+            <div class="row">
+              <h3>Fertilizer and soil</h3>
+              <p>Soil tests and nutrient apps show what the land needs so products are used carefully and responsibly.</p>
+            </div>
+            <div class="row">
+              <h3>Pests and weeds</h3>
+              <p>Scouting apps and photo identification help spot problems early and support integrated management.</p>
+            </div>
+            <div class="row">
+              <h3>Crops and water</h3>
+              <p>Weather data, soil moisture sensors, and timed irrigation help decide when and how to plant and water.</p>
+            </div>
+            <div class="row">
+              <h3>Livestock care</h3>
+              <p>Digital records for feed, health, eggs, and milk support better animal welfare and farm decisions.</p>
+            </div>
+            <div class="row">
+              <h3>Food preservation</h3>
+              <p>Temperature monitoring and record keeping help store eggs and goat milk safely and efficiently.</p>
+            </div>
+            <div class="row">
+              <h3>Farm business</h3>
+              <p>Record apps, budgeting spreadsheets, and online sales help transform farm work into income.</p>
+            </div>
+          </div>
+
+          <p class="note" style="margin-top:1rem;">
+            <strong>Safety first:</strong> young children learn the ideas and watch demonstrations. Adults handle all fertilizers, pesticides, equipment, and farm machinery. We teach responsible use, caution, and healthy farming habits.
+          </p>
+        </div>
+      </section>
+
+      <section id="program" class="alt">
+        <div class="wrap">
+          <h2>Youth program: one year, three steps.</h2>
+          <p class="lead">
+            For young people aged 16 to 30. Applications open when the farm is ready to begin. Applicants are welcome regardless of prior experience.
+          </p>
+
+          <div class="phases">
+            <div class="phase">
+              <small>Months 1 to 4</small>
+              <h3>Learn the basics</h3>
+              <p>Soil, crops, water, and harvesting on a small personal crop plot.</p>
+            </div>
+            <div class="phase">
+              <small>Months 5 to 8</small>
+              <h3>Start a business</h3>
+              <p>Plan an agri-business using digital tools and climate-smart methods.</p>
+            </div>
+            <div class="phase">
+              <small>Months 9 to 12</small>
+              <h3>Lead your community</h3>
+              <p>Run a community project and graduate with a certificate.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="learn">
+        <div class="wrap">
+          <h2>What you will learn.</h2>
+          <div class="rows">
+            <div class="row">
+              <h3>Farming</h3>
+              <p>Healthy soil, crop production, water management, and safe storage of food after harvest.</p>
+            </div>
+            <div class="row">
+              <h3>Technology</h3>
+              <p>Farm apps, weather tools, mobile money, and online selling.</p>
+            </div>
+            <div class="row">
+              <h3>Money</h3>
+              <p>Pricing, record keeping, saving, and writing a simple business plan.</p>
+            </div>
+            <div class="row">
+              <h3>Leadership</h3>
+              <p>Speaking up, solving problems together, and leading community projects.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="join" class="alt">
+        <div class="wrap two">
+          <div>
+            <h2>Who can join.</h2>
+            <ul class="checks">
+              <li>Aged 16 to 30 (under 18: parent or guardian consent)</li>
+              <li>Living in a rural or peri-urban community</li>
+              <li>Able to read and write at a basic level</li>
+              <li>Ready to learn, participate, and help others</li>
+            </ul>
+            <p class="note" style="margin-top:1rem;">
+              No formal exams or qualifications are required. Girls and young women, youth with disabilities, and vulnerable youth will receive priority consideration.
+            </p>
+          </div>
+
+          <div>
+            <h2>What you get.</h2>
+            <ul class="checks">
+              <li>Hands-on learning on a working farm</li>
+              <li>Practical training in agriculture and technology</li>
+              <li>Skills in business, money, and leadership</li>
+              <li>Certificate recognition at the end of the program</li>
+            </ul>
+            <p class="note" style="margin-top:1rem;">
+              The program fee is based on a sliding scale according to family income, with support options available where needed.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="support">
+        <div class="wrap">
+          <h2>Support the farm.</h2>
+          <p class="lead">
+            Your support helps us build the infrastructure and care needed to open the farm to young learners.
+          </p>
+
+          <div class="two">
+            <div>
+              <h3>What funding covers</h3>
+              <ul class="checks">
+                <li>Livestock and animal care</li>
+                <li>Livestock housing</li>
+                <li>A lunch and presentation pavilion</li>
+                <li>Restrooms and basic amenities</li>
+                <li>Tools, equipment, and safe farm access</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Ways to help</h3>
+              <ul class="checks">
+                <li>Donate or sponsor a part of the build</li>
+                <li>Give supplies, materials, or services</li>
+                <li>Volunteer or mentor young people</li>
+                <li>Partner with schools, businesses, or groups</li>
+              </ul>
+              <p style="margin-top:1.25rem;">
+                <a class="btn" href="#apply">Contact us about supporting</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="apply" class="alt">
+        <div class="wrap">
+          <h2>Join the list or get in touch.</h2>
+          <p class="lead">
+            Tell us who you are and how you would like to take part. We will follow up as the farm nears opening. Your message opens in your email app ready to send.
+          </p>
+
+          <p>
+            <strong>Email:</strong> <a href="mailto:lubala2004@yahoo.fr">lubala2004@yahoo.fr</a><br />
+            <strong>Phone:</strong> <a href="tel:+13095338973">309-533-8973</a><br />
+            <strong>Location:</strong> Normal, Illinois
+          </p>
+
+          <form id="contact">
+            <label>
+              Your name
+              <input name="name" required autocomplete="name" />
+            </label>
+            <label>
+              I am a
+              <select name="role">
+                <option>School or group leader</option>
+                <option>Youth applicant</option>
+                <option>Parent or guardian</option>
+                <option>Funder or supporter</option>
+                <option>Mentor or volunteer</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="msg" required></textarea>
+            </label>
+            <button class="btn" type="submit">Send message</button>
+            <p class="note" id="status" role="status"></p>
+          </form>
+        </div>
+      </section>
+
+      <section id="legal" class="legal">
+        <div class="wrap">
+          <h2>Safety, privacy and terms.</h2>
+          <p class="lead">Last updated: October 8, 2026. Select a topic to read it.</p>
+
+          <details id="safety">
+            <summary>Visitor safety rules</summary>
+            <div class="body">
+              <p>These rules keep children, adults and animals safe. Details will be confirmed with each group when a visit is booked.</p>
+              <ul>
+                <li>Teachers or group leaders should book visits and bring enough adult chaperones.</li>
+                <li>Please tell us in advance about allergies, access needs, or medical concerns.</li>
+                <li>Everyone signs in and stays with their group while visiting the farm.</li>
+                <li>Children never go near animals, pens, or equipment alone. Animals are touched only with supervision.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details>
+            <summary>Privacy and security policy</summary>
+            <div class="body">
+              <p>We only collect the information you choose to send through the contact form or email. This may include your name, role, message, and contact information.</p>
+              <p>The form does not store your message on the website; it opens your own email app so you can send it securely to Aganze Growing Roots Farm.</p>
+              <ul>
+                <li>We use your information to respond to inquiries and maintain interest lists for visits and youth programming.</li>
+                <li>We do not sell or rent personal data.</li>
+                <li>We may use Google Fonts, which means Google may receive IP address information when the page loads.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details>
+            <summary>Terms of use</summary>
+            <div class="body">
+              <p>By using this website, you agree that the farm is under construction and that dates, activities, fees, and availability may change.</p>
+              <p>Nothing on this site is a guarantee or a binding offer. Content may be updated without notice.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <img class="logo" alt="Aganze Growing Roots Farm logo" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B1%3C/text%3E%3C/svg%3E" />
+        <div>© 2026 Aganze Growing Roots Farm. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <script>
+      var menu = document.getElementById('menu');
+      var nav = document.getElementById('nav');
+
+      if (menu && nav) {
+        menu.addEventListener('click', function () {
+          var isOpen = nav.classList.toggle('open');
+          menu.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        nav.addEventListener('click', function () {
+          nav.classList.remove('open');
+          menu.setAttribute('aria-expanded', 'false');
+        });
+      }
+
+      var form = document.getElementById('contact');
+      if (form) {
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          var name = form.name.value || 'Name not provided';
+          var role = form.role.value || 'General inquiry';
+          var msg = form.msg.value || '';
+          var email = 'lubala2004@yahoo.fr';
+
+          var subject = 'Growing Roots inquiry: ' + role;
+          var body = 'Name: ' + name + '\nRole: ' + role + '\n\n' + msg;
+
+          window.location.href = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+          document.getElementById('status').textContent = 'Your email app should open with the message ready to send.';
+        });
+      }
+    </script>
+  </body>
+</html>
